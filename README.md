@@ -1,70 +1,140 @@
-# Getting Started with RolesCreate React App
+![](https://komarev.com/ghpvc/?username=hamitmizrak)
 
-This project was bootstrapped with [RolesCreate React App](https://github.com/facebook/create-react-app).
+![readme](./picture/readme.jpg)
+ 
+---
+https://github.com/hamitmizrak/
+---
 
-## Available Scripts
 
-In the project directory, you can run:
+---
+## RolMap
 
-### `npm start`
+### Bean
+```sh
+ModelMapper
+PasswordEncoder
+OpenApiConfiguration
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Exception
+```sh
+HamitMizrakException
+ResourceAuthorizedException
+ResourceNotFoundException
+ResourceCreatedException
+ResourceBadRequestException
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 
+```sh
+RegisterDto
+BaseEntity
+RegisterEntity
+IRegisterRepository
+```
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+#  Java Full Stack Developer -7 (1 Nisan  2023)
+* [GitHub](https://github.com/hamitmizrak/)
+*
+### Gereksinimler
+Java 17
+intellij idea Ultimate
+Visual Studio Code
+Node js
+---
 
-### `npm run build`
+## Visual Studio codes
+Extensisons
+- Browser preview
+- Auto Close tag
+- tabnine
+- Auto import
+- Auto rename tag
+- Bootstrap 5 Quick Snipperts
+- Bracket Pair Colorizer 2
+- Css Snippet
+- Es7+ React/REdux/React-Native snippets
+- Html Snippets
+- JsQuery Snippets
+- Live Server
+- Material Icon Theme
+- Open-in-Browser
+- Path Intellisense
+- Prettier Code formatter
+- Project Manager
+- Reactjs code Snippets
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnology
+##FrontEnd
+- Html5
+- Css3
+- responsive design
+- Js
+- jquery
+- Bootstrap
+- react
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## BackEnd
+* javase
+* jdbc crud native
+* hibernate
+* spring core
+* spring mvc
+* spring data
+* spring rest
+* spring security
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Libraries
+Thymeleaf
+Lombok
+Validation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Database
+H2 Database
+Mysql
+Postgresql
 
-## Learn More
+---
+## dependency
+Spring Web
+Spring Data JPA
+Spring Rest
+Spring Security
 
-You can learn more in the [RolesCreate React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
+# Spring Tools
+Spring Boot DevTools
+Spring Configuration Processor
+Spring Boot Actuator
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Docker Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1.ADIM
+npx create-react-app frontend
+cd frontend
+npm start
+code .
 
-### Analyzing the Bundle Size
+2.ADIM
+NOT: node_modules siliyoruz bunu sonrasında
+npm i
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3.ADIM
+terminal: package.json seviyesinde olacak şekilde
+npm install axios
+npm install bootstrap --save
+npm install node-sass --save
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
