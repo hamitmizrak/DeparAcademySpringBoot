@@ -49,6 +49,7 @@
                 <th th:text="#{product.trade}"></th>
                 <th th:text="#{product.price}"></th>
                 <th th:text="#{product.date}"></th>
+                <th th:text="'State'"></th>
             </tr>
         </thead>
         <tbody>
@@ -58,6 +59,8 @@
                 <td th:text="${pro.productTrade}"></td>
                 <td th:text="${pro.productPrice}"></td>
                 <td th:text="${pro.createdDate}"></td>
+                <td th:if="${pro.productPrice>=300}" th:text="'Büyük'"></td>
+                <td th:unless="${pro.productPrice>=300}" th:text="'Küçük'"></td>
             </tr>
         </tbody>
     </table>
