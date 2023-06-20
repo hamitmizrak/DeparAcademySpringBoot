@@ -1,7 +1,17 @@
 package com.hamitmizrak.data.entity;
 import jakarta.persistence.*;
+import lombok.*;
+import lombok.extern.log4j.Log4j2;
 
 import java.io.Serializable;
+
+// LOMBOK
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Log4j2
+// @SneakyThrows
 
 @Entity
 @Table(name="product")
