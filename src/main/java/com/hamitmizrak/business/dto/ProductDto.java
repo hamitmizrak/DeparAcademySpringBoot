@@ -5,13 +5,16 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Date;
 
 @Data
 @AllArgsConstructor
 //@NoArgsConstructor
 @Builder
-public class ProductDto {
+public class ProductDto implements Serializable {
+
+    public static final Long serialVersionUID=1L;
 
     private Long id;
     private String productName;
