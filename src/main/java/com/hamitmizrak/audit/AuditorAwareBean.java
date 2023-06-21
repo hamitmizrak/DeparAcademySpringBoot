@@ -1,4 +1,4 @@
-package com.hamitmizrak.bean;
+package com.hamitmizrak.audit;
 
 import com.hamitmizrak.audit.AuditorAwareImpl;
 import org.springframework.context.annotation.Bean;
