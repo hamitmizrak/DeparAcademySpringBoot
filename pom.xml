@@ -20,13 +20,13 @@
 
     <!--properties-->
     <properties>
-        <encoding>UTF-8</encoding>
-        <java.version>17</java.version>
+       <!-- <encoding>UTF-8</encoding>
+        <java.version>17</java.version>-->
         <!--for maven-->
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.target>17</maven.compiler.target>
-        <maven.compiler.source>17</maven.compiler.source>
+      <!--  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>-->
+        <!--<maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>-->
 
         <!--Version-->
         <modelmapper.version>2.4.4</modelmapper.version>
@@ -295,14 +295,14 @@
     <build>
         <plugins>
             <!-- for maven -->
-            <plugin>
+           <!-- <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>3.0.2</version>
-            </plugin>
+            </plugin>-->
 
             <!-- for maven target 17 -->
-            <plugin>
+            <!--<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
@@ -310,7 +310,7 @@
                     <source>17</source>
                     <target>17</target>
                 </configuration>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <groupId>org.springframework.boot</groupId>
