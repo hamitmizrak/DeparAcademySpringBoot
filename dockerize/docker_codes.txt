@@ -1,0 +1,5 @@
+$ ./mvnw clean install -DskipTest
+
+$ docker-compose up
+$ docker-compose down
+$ docker-compose up -d
